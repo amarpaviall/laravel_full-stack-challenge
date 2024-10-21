@@ -1,4 +1,4 @@
-# 111 Wise Publishing Frontend Challenge 👨‍💻
+# Wise Publishing Frontend Challenge 👨‍💻
 
 This challenge is meant to measure your capabilities as a **senior frontend developer** and assess your approach to solving complex frontend problems. We value clean architecture, attention to performance, and good user experience.
 
