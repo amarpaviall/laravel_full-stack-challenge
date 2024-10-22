@@ -38,6 +38,7 @@
 
             @if (Auth::user()->role == 'admin')
                 <a class="btn btn-outline-primary me-2" href="{{ route('admin.dashboard') }}" type="submit">Hi Admin </a>
+                {{-- <a class="btn btn-outline-primary me-2" href="{{ route('profile.edit') }} ">Profile</a> --}}
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
                     <a href=" {{ route('logout') }} " onclick="event.preventDefault(); this.closest('form').submit();">
@@ -45,6 +46,8 @@
                     </a>
                 </form>
             @endif
+
+
 		</div>
 	</nav>
 </header>
