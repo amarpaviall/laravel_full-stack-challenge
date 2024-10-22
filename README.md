@@ -57,5 +57,12 @@ password: admin@123
    - **Separation of Concerns:** Ensure a clean separation between data fetching and UI rendering for scalability. ✔
    - **CSS Architecture:** Use a CSS methodology such as BEM or utility-first CSS for maintainable and scalable styles. ✔
   
-<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/metrics.png" alt="App screenshot" width="400" height="300">
 
+Frontend Pages :
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/metrics.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/home.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/jobs.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/jobs_detail.png" alt="App screenshot">
