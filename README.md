@@ -40,6 +40,8 @@ Seed the database with dummy admin login for testing purposes.
 
 Run command :->  php artisan db:seed
 
+admin login :> http://localhost:8000/login
+
 username : admin@gmail.com
 
 password: admin@123
