@@ -67,7 +67,7 @@ Frontend Pages :
 
 <img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/home.png" alt="App screenshot">
 
-<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/jobs.png" alt="App screenshot">
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/company.png" alt="App screenshot">
 
 <img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/job_detail.png" alt="App screenshot">
 
