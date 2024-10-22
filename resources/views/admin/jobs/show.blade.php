@@ -3,7 +3,7 @@
 @section('main')
 <div class="container py-5">
     <h2>{{ $job->title }}</h2>
-    <h4>Company: {{ $job->company->name }}</h4>
+    <h4 class="mt-3">Company: {{ $job->company->name }}</h4>
     <p>Location: {{ $job->location }}</p>
     <p>Position Type: {{ ucfirst($job->position_type) }}</p>
     <p>Salary: ${{ number_format($job->salary, 2) }}</p>

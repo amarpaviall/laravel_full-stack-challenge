@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/ui/trumbowyg.min.css" integrity="sha512-Fm8kRNVGCBZn0sPmwJbVXlqfJmPC13zRsMElZenX6v721g/H7OukJd8XzDEBRQ2FSATK8xNF9UYvzsCtUpfeJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" />
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.1/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.1/dist/cdn.min.js"></script>
 
 	<!-- Fav Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="#" />
@@ -26,10 +26,10 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-0 ms-sm-0 me-auto mb-2 mb-lg-0 ms-lg-4">
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="{{ route('admin.companies') }}">Companies</a>
+						<a class="nav-link" aria-current="page" href="{{ route('admin.companies') }}">Manage Companies</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="{{ route('admin.jobs') }}">Jobs</a>
+						<a class="nav-link" aria-current="page" href="{{ route('admin.jobs') }}">Manage Jobs</a>
 					</li>
 				</ul>
 
