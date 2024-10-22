@@ -41,12 +41,21 @@ php artisan db:seed
 username : admin@gmail.com
 password: admin@123
 
-Performance Considerations
-Lazy Loading: Images in the job listings are lazy-loaded for better performance, especially on slower connections.
-Efficient Filtering: Job filters are optimized for speed by reducing unnecessary database queries.
-Caching: Consider implementing Laravel's caching mechanisms to cache frequently accessed data like job listings and company names.
+1. **Performance:**
+   - **Optimize for Core Web Vitals (CWV):** Ensure the app scores well on metrics like First Contentful Paint (FCP), Largest Contentful Paint (LCP), and Cumulative Layout Shift (CLS). ✔
+   - **Lazy Loading:** Implement lazy loading of job postings and images to improve initial load time. ✔
+   - **Minification and Compression:** Minimize and compress assets (CSS, JS) for better performance. ✔
 
-Accessibility Considerations
-Keyboard Navigation: Ensure that all form inputs and interactive elements are keyboard navigable.
-Screen Reader Support: Provide appropriate labels for buttons, inputs, and images to enhance compatibility with screen readers.
-Color Contrast: All text and buttons follow WCAG guidelines for color contrast, ensuring readability for all users.
+2. **UI/UX:**
+   - **Responsive Design:** Ensure the application is fully responsive across all devices (mobile, tablet, desktop). ✔
+   - **User-friendly Filters:** Implement an intuitive filtering UI with clear feedback when users apply filters. ✔
+   - **Microinteractions:** Add subtle animations or transitions to improve the user experience without impacting performance. ✔
+   - **Accessibility:** Ensure the site is accessible for all users (e.g., keyboard navigation, screen reader support). ✔
+
+3. **Frontend Architecture:**
+   - **Reusable Components:** Build reusable components for job cards, filter options, and forms using Blade and Alpine.js. ✔
+   - **Separation of Concerns:** Ensure a clean separation between data fetching and UI rendering for scalability. ✔
+   - **CSS Architecture:** Use a CSS methodology such as BEM or utility-first CSS for maintainable and scalable styles. ✔
+  
+<img src="./screenshots/metrics.png" alt="App screenshot" width="400" height="300">
+
