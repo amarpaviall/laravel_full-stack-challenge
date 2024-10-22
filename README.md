@@ -32,13 +32,16 @@ DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
-Run database migrations: php artisan migrate
+Run database migrations:-> php artisan migrate
 
 Database Seeding
-You can seed the database with dummy admin login for testing purposes.
-php artisan db:seed
+
+Seed the database with dummy admin login for testing purposes.
+
+Run command :->  php artisan db:seed
 
 username : admin@gmail.com
+
 password: admin@123
 
 1. **Performance:**
@@ -59,6 +62,7 @@ password: admin@123
   
 
 Frontend Pages :
+
 <img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/metrics.png" alt="App screenshot">
 
 <img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/home.png" alt="App screenshot">
