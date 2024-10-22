@@ -7,10 +7,17 @@ Admin users can manage Companies, Jobs Posting.
 ## Features
 
 Job Listings & Search: Users can browse, search, and filter job listings based on location, company, salary, and job type.
-Admin Panel: Admin users can manage job posts, companies, and their profiles with a dropdown feature. Role middleware checks if the authenticated user has the correct role. If not, it returns a 403 unauthorized response
+
+Admin Panel: Admin users can manage job posts, companies. 
+
+Role middleware checks if the authenticated user has the correct role. 
+
 Lazy Loading & Transitions: Images are lazy-loaded to improve page load speed and smooth transitions are applied for a better user experience.
+
 Reusable Components: Built-in reusable job cards, filters, and form components using Blade and Alpine.js.
+
 Responsive & Mobile-Friendly: Designed with mobile-first principles, ensuring a great user experience across all devices.
+
 Accessibility: Enhanced accessibility support with keyboard navigation and screen reader compatibility.
 
 ## Tech Stack
