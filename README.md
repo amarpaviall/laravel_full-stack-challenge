@@ -22,7 +22,7 @@ Accessibility: Enhanced accessibility support with keyboard navigation and scree
 
 ### Prerequisites
 
-- PHP >= 8.0
+- PHP >= 8.1
 - Composer
 - MySQL
 - Node.js & NPM/Yarn
