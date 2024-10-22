@@ -24,7 +24,7 @@
 
                                 <div class="jobs_conetent">
                                     <a href="{{ route('jobdetail',$job->id) }}">
-                                        <h4>{{ $job->title }}</h4>
+                                        <h3>{{ $job->title }}</h3>
                                     </a>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
