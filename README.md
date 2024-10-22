@@ -22,7 +22,7 @@ Accessibility: Enhanced accessibility support with keyboard navigation and scree
 
 ### Prerequisites
 
-- PHP >= 8.0
+- PHP >= 8.1
 - Composer
 - MySQL
 - Node.js & NPM/Yarn
@@ -32,13 +32,16 @@ DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
-Run database migrations: php artisan migrate
+Run database migrations:-> php artisan migrate
 
 Database Seeding
-You can seed the database with dummy admin login for testing purposes.
-php artisan db:seed
+
+Seed the database with dummy admin login for testing purposes.
+
+Run command :->  php artisan db:seed
 
 username : admin@gmail.com
+
 password: admin@123
 
 1. **Performance:**
@@ -57,5 +60,17 @@ password: admin@123
    - **Separation of Concerns:** Ensure a clean separation between data fetching and UI rendering for scalability. ✔
    - **CSS Architecture:** Use a CSS methodology such as BEM or utility-first CSS for maintainable and scalable styles. ✔
   
-<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/screenshots/metrics.png" alt="App screenshot" width="400" height="300">
 
+Frontend Pages :
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/metrics.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/home.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/jobs.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/job_detail.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/view.png" alt="App screenshot">
+
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/list.png" alt="App screenshot">
