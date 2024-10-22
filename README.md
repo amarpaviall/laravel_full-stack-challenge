@@ -65,7 +65,7 @@ password: admin@123
 
 Frontend Pages :
 
-<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/front.png" alt="App screenshot">
+<img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/front.jpg" alt="App screenshot">
 
 <img src="https://github.com/amarpaviall/laravel_full-stack-challenge/blob/main/screenshots/metrics.png" alt="App screenshot">
 
