@@ -57,7 +57,7 @@ Database Seeding
 
 Seed the database with dummy admin login for testing purposes.
 
-Run command :->  php artisan db:seed
+Run command :->  php artisan db:seed or php artisan migrate:refresh --seed
 
 admin login :> http://localhost:8000/login
 
