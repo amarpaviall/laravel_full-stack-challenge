@@ -38,8 +38,8 @@ class JobsSeeder extends Seeder
             [
                 'company_id' => 1,
                 'title' => 'Full Stack Developer',
-                'location' => 'Remote',
-                'position_type' => 'Contract',
+                'location' => 'Scarborough',
+                'position_type' => 'Remote',
                 'salary' => 12000.00,
                 'status' => 1,  // Active status
                 'description' => 'We are seeking a Full Stack Developer for a 6-month contract role.',
