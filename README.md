@@ -39,6 +39,18 @@ DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
+create the necessary database.
+
+First clone this repository, install the dependencies, and setup your .env file.
+composer install
+composer update
+
+npm install
+npm run build
+
+cp .env.example .env
+
+
 Run database migrations:-> php artisan migrate
 
 Database Seeding
