@@ -69,4 +69,4 @@ jobs:
         run: php artisan migrate --force
 
       - name: Execute tests
-        run: vendor/bin/phpunit
+        run: ./vendor/bin/pest --verbose
