@@ -71,5 +71,5 @@ jobs:
       - name: Run migrations
         run: php artisan migrate --force
 
-      - name: Execute tests
-        run:  vendor/bin/pest --verbose
+      - name: Execute tests via PHPUnit/Pest
+        run: php artisan test
