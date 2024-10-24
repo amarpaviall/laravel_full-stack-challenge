@@ -61,7 +61,6 @@ jobs:
 
       - name: Install phppest
         run: composer require pestphp/pest --dev
-
       - name: Copy environment file
         run: cp .env.example .env
 
