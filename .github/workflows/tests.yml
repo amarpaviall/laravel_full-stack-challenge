@@ -71,4 +71,4 @@ jobs:
         run: php artisan migrate --force
 
       - name: Execute tests
-        run: ./vendor/bin/pest --verbose  # <-- Updated command
+        run: ./vendor/bin/pest  # <-- Updated command
